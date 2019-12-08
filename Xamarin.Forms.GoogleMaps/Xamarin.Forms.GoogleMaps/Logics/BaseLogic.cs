@@ -5,7 +5,7 @@ using System.ComponentModel;
 
 namespace Xamarin.Forms.GoogleMaps.Logics
 {
-    internal abstract class BaseLogic<TNativeMap>
+    public abstract class BaseLogic<TNativeMap>
     {
         public float ScaledDensity { get; internal set; }
 

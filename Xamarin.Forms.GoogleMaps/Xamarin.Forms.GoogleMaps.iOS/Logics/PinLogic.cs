@@ -10,7 +10,7 @@ using Xamarin.Forms.GoogleMaps.iOS.Factories;
 
 namespace Xamarin.Forms.GoogleMaps.Logics.iOS
 {
-    internal class PinLogic : DefaultPinLogic<Marker, MapView>
+    public class PinLogic : DefaultPinLogic<Marker, MapView>
     {
         protected override IList<Pin> GetItems(Map map) => map.Pins;
 

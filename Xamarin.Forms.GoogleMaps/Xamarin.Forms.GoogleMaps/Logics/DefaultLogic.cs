@@ -5,7 +5,7 @@ using System.Collections.Specialized;
 
 namespace Xamarin.Forms.GoogleMaps.Logics
 {
-    internal abstract class DefaultLogic<TOuter, TNative, TNativeMap> : BaseLogic<TNativeMap>
+    public abstract class DefaultLogic<TOuter, TNative, TNativeMap> : BaseLogic<TNativeMap>
         where TOuter : BindableObject
         where TNative : class
         where TNativeMap : class

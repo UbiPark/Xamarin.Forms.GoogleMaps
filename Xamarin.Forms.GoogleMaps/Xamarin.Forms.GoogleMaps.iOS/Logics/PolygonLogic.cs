@@ -9,7 +9,7 @@ using NativePolygon = Google.Maps.Polygon;
 
 namespace Xamarin.Forms.GoogleMaps.Logics.iOS
 {
-    internal class PolygonLogic : DefaultPolygonLogic<NativePolygon, MapView>
+    public class PolygonLogic : DefaultPolygonLogic<NativePolygon, MapView>
     {
         protected override IList<Polygon> GetItems(Map map) => map.Polygons;
 

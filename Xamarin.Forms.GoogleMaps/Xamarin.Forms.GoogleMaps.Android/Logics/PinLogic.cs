@@ -12,7 +12,7 @@ using Xamarin.Forms.GoogleMaps.Android.Factories;
 
 namespace Xamarin.Forms.GoogleMaps.Logics.Android
 {
-    internal class PinLogic : DefaultPinLogic<Marker, GoogleMap>
+    public class PinLogic : DefaultPinLogic<Marker, GoogleMap>
     {
         protected override IList<Pin> GetItems(Map map) => map.Pins;
 

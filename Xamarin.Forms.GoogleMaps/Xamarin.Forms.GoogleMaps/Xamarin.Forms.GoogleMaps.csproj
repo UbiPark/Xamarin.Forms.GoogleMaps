@@ -13,6 +13,6 @@
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
-    <None Include="logo.png" Pack="true" PackagePath="\"/>    
+    <None Include="logo.png" Pack="true" PackagePath="\" />    
   </ItemGroup>
 </Project>

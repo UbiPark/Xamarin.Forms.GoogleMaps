@@ -32,7 +32,7 @@ namespace Xamarin.Forms.GoogleMaps.iOS
 
         private bool _ready;
 
-        internal readonly IList<BaseLogic<MapView>> Logics;
+        protected readonly IList<BaseLogic<MapView>> Logics;
         
         public MapRenderer()
         {

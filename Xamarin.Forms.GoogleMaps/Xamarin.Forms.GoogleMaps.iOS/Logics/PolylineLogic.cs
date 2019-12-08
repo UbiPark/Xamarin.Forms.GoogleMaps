@@ -9,7 +9,7 @@ using NativePolyline = Google.Maps.Polyline;
 
 namespace Xamarin.Forms.GoogleMaps.Logics.iOS
 {
-    internal class PolylineLogic : DefaultPolylineLogic<NativePolyline, MapView>
+    public class PolylineLogic : DefaultPolylineLogic<NativePolyline, MapView>
     {
         protected override IList<Polyline> GetItems(Map map) => map.Polylines;
 
